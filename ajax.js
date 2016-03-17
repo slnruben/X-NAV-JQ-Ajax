@@ -26,7 +26,7 @@ function getErrorText() {
 		url: "text3.txt",
 		cache: false
 	}).fail(function() {
-		$("#server3").html("uhhh perry");
+		$("#server3").html("Something went wrong");
 	})	
 }
 
